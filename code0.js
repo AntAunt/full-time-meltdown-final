@@ -19,6 +19,10 @@ gdjs.Start_32ScreenCode.GDCheatsObjects1= [];
 gdjs.Start_32ScreenCode.GDCheatsObjects2= [];
 gdjs.Start_32ScreenCode.GDPressStartToSpaceObjects1= [];
 gdjs.Start_32ScreenCode.GDPressStartToSpaceObjects2= [];
+gdjs.Start_32ScreenCode.GDOptionsObjects1= [];
+gdjs.Start_32ScreenCode.GDOptionsObjects2= [];
+gdjs.Start_32ScreenCode.GDCheatSheetObjects1= [];
+gdjs.Start_32ScreenCode.GDCheatSheetObjects2= [];
 
 gdjs.Start_32ScreenCode.conditionTrue_0 = {val:false};
 gdjs.Start_32ScreenCode.condition0IsTrue_0 = {val:false};
@@ -35,6 +39,19 @@ gdjs.Start_32ScreenCode.condition0IsTrue_0.val = false;
 gdjs.Start_32ScreenCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 }if (gdjs.Start_32ScreenCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Game", false);
+}}
+
+}
+
+
+{
+
+
+gdjs.Start_32ScreenCode.condition0IsTrue_0.val = false;
+{
+gdjs.Start_32ScreenCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "e");
+}if (gdjs.Start_32ScreenCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Settings", false);
 }}
 
 }
@@ -65,6 +82,10 @@ gdjs.Start_32ScreenCode.GDCheatsObjects1.length = 0;
 gdjs.Start_32ScreenCode.GDCheatsObjects2.length = 0;
 gdjs.Start_32ScreenCode.GDPressStartToSpaceObjects1.length = 0;
 gdjs.Start_32ScreenCode.GDPressStartToSpaceObjects2.length = 0;
+gdjs.Start_32ScreenCode.GDOptionsObjects1.length = 0;
+gdjs.Start_32ScreenCode.GDOptionsObjects2.length = 0;
+gdjs.Start_32ScreenCode.GDCheatSheetObjects1.length = 0;
+gdjs.Start_32ScreenCode.GDCheatSheetObjects2.length = 0;
 
 gdjs.Start_32ScreenCode.eventsList0(runtimeScene);
 return;
